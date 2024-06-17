@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image with Text</title>
+    <style>
+        @font-face {
+            font-family: 'Elephant';
+            src: url('Elephant.ttf'); /* Make sure to have the Elephant font file in the same directory */
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Elephant', sans-serif;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('IMG_7327.JPG');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .name-block, .details-block {
+            background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text visibility */
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="name-block">
+            <h1>Brian Gates</h1>
+        </div>
+        <div class="details-block">
+            <p>Personal Details go here</p>
+        </div>
+    </div>
+</body>
+</html>
