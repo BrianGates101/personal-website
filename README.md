@@ -1,3 +1,3 @@
 # Welcome to my personal website
 
-this is still under development
+This is still under development. Nothing to see here...
